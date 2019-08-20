@@ -1,0 +1,94 @@
+Libano06:~ alumno$ mkdir practica1
+Libano06:~ alumno$ cd practica1/
+Libano06:practica1 alumno$ ls
+Libano06:practica1 alumno$ cd geometria
+-bash: cd: geometria: No such file or directory
+Libano06:practica1 alumno$ mkdir geometria
+Libano06:practica1 alumno$ mkdir programacion
+Libano06:practica1 alumno$ mkdir quimica
+Libano06:practica1 alumno$ mkdir fisica
+Libano06:practica1 alumno$ mkdir algebra
+Libano06:practica1 alumno$ cd geometria/
+Libano06:geometria alumno$ touch archivo.txt
+Libano06:geometria alumno$ cd ..
+Libano06:practica1 alumno$ ls
+algebra		fisica		geometria	programacion	quimica
+Libano06:practica1 alumno$ cd fisica
+Libano06:fisica alumno$ touch archivo.txt
+Libano06:fisica alumno$ cd ..
+Libano06:practica1 alumno$ cd geometria/
+Libano06:geometria alumno$ touch archivo.txt
+Libano06:geometria alumno$ cd ..
+Libano06:practica1 alumno$ cd programacion/
+Libano06:programacion alumno$ touch archivo.txt
+Libano06:programacion alumno$ cd ..
+Libano06:practica1 alumno$ cd quimica/
+Libano06:quimica alumno$ touch archivo.txt
+Libano06:quimica alumno$ ls
+archivo.txt
+Libano06:quimica alumno$ cd ..
+Libano06:practica1 alumno$ ls
+algebra		fisica		geometria	programacion	quimica
+Libano06:practica1 alumno$ cd algebra/
+Libano06:algebra alumno$ ls
+Libano06:algebra alumno$ cd al
+-bash: cd: al: No such file or directory
+Libano06:algebra alumno$ ls
+Libano06:algebra alumno$ cd ..
+Libano06:practica1 alumno$ ls
+algebra		fisica		geometria	programacion	quimica
+Libano06:practica1 alumno$ cd algebra/
+Libano06:algebra alumno$ ls
+Libano06:algebra alumno$ touch archivo.txt
+Libano06:algebra alumno$ echo "Aaron Sanchez CoRonel" >> archivo.txt 
+Libano06:algebra alumno$ echo "420053521" >> archivo.txt 
+Libano06:algebra alumno$ cat archivo.txt 
+Aaron Sanchez CoRonel
+420053521
+Libano06:algebra alumno$ cd ..
+Libano06:practica1 alumno$ ls
+algebra		fisica		geometria	programacion	quimica
+Libano06:practica1 alumno$ cd fisica/
+Libano06:fisica alumno$ ls
+archivo.txt
+Libano06:fisica alumno$ echo "Aaron Sanchez CoRonel" >> archivo.txt 
+Libano06:fisica alumno$ echo "420053521" >> archivo.txt 
+Libano06:fisica alumno$ cat archivo.txt 
+Aaron Sanchez CoRonel
+420053521
+Libano06:fisica alumno$ cd ..
+Libano06:practica1 alumno$ cd geometria/
+Libano06:geometria alumno$ ls
+archivo.txt
+Libano06:geometria alumno$ echo "Aaron Sanchez CoRonel" >> archivo.txt 
+Libano06:geometria alumno$ echo "420053521" >> archivo.txt 
+Libano06:geometria alumno$ cat archivo.txt 
+Aaron Sanchez CoRonel
+420053521
+Libano06:geometria alumno$ cd ..
+Libano06:practica1 alumno$ cd programacion/
+Libano06:programacion alumno$ ls
+archivo.txt
+Libano06:programacion alumno$ echo "Aaron Sanchez CoRonel" >> archivo.txt 
+Libano06:programacion alumno$ echo "420053521" >> archivo.txt 
+Libano06:programacion alumno$ cat archivo.txt 
+Aaron Sanchez CoRonel
+420053521
+Libano06:programacion alumno$ cd ..
+Libano06:practica1 alumno$ ls
+algebra		fisica		geometria	programacion	quimica
+Libano06:practica1 alumno$ cd quimica/
+Libano06:quimica alumno$ ls
+archivo.txt
+Libano06:quimica alumno$ echo "Aaron Sanchez CoRonel" >> archivo.txt 
+Libano06:quimica alumno$ echo "420053521" >> archivo.txt 
+Libano06:quimica alumno$ cat archivo.txt 
+Aaron Sanchez CoRonel
+420053521
+Libano06:quimica alumno$ cd ..
+Libano06:practica1 alumno$ ls
+algebra		fisica		geometria	programacion	quimica
+Libano06:practica1 alumno$ cd ..
+Libano06:~ alumno$ ls
+Desktop		Documents	Downloads	Library		Pictures	practica1
+Libano06:~ alumno$ 
