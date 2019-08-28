@@ -1,0 +1,42 @@
+PROBLEMA 1: Dado un precio, calcular su descuento considerando que si su precio es mayor a 100 el descuento será de 10%, de otro modo, solo el 2%.
+
+ENTRADA: seguir el algoritmo para sacar el  el 10% o el 2% de descuento en tu compra.
+
+SALIDA: descuento del 10% o 2%
+
+ALGORTIMO:
+1.- oBservar los precios o el total a pagar, si requieres pagar mas de $100.00 entonces se te aplicaría un descuento del 10%, multiplica el 20% por la cantidad total a pagar y divide entre el 100%, tu resultado será la cantidad que se te vaya a descontar sobre el precio original.
+2.- si el precio es menor a $100, pero mayor a 0, entonces requerirás multiplicar 2 por la cantidad total y esta dividirla entre 100, el resultado será lo que se te vaya a descontar
+3-. Sin problema podrás obtener el el total de tu descuento basándotelos el el precio.
+
+PROBLEMA 2: Un algoritmo que lea dos numero y calcule su suma, resta, división Y multiplicación de esos dos numeros
+
+ENTRADA: dos números
+SALIDA: respectivas operaciones
+
+ALGORTIMO:
+1.- dados dos números cuales queira sumarlos, y guardar resta
+2.- los mismos números sumarlos, y guardar su respectiva suma
+3.- teniendo los mismos números, hacer su respectiva multiplicacion
+4.- para determinar su la ultima opresión, multiplicar 
+5.- ahora ya tendrás la respectiva suma, resta, división, y multiplicación
+
+PROBLEMA 3: Leer tres numero que van a denotar una fecha, de día mes  y año, y verificar si res valida la fecha
+
+
+ENTRADA: tener en cuenta que para que llegue a estar mal la fecha si se llega a tener el día 
+SALIDA: resultado
+
+
+ALGORTIMO:  
+1.-contando a enero que tiene 31 días, si se llega a pasar, entonces es falso contando el cero
+2.- si febrero sobre pasa en días al 28, entonces el día seria falso contando el cero
+3.- si marzo sobre pasa los 31 días, entonces es falso el dia contando el cero
+4.- si abril sobre pasa en días 30, entonces es falso el día, contando el cero
+5.- si mayo sobre pasa en días 31 entonces es falso contando el cero
+6.- si julio sobre pasa en días 30 entonces el numero es falso, contando el cero
+7.-si agosto sobre pasa en días 31, entonces el día es falso, contando el cero
+9.- si septiembre sobre pasa en días 30, entonces el día es falso, contando el cero
+10.- si octubre sobre pasa en 31, entonces el día es falso, contando el cero
+11.- si en noviembre sobre pasa en 30,entonces el día es falso, contando el cero
+12.- si en diciembre sobre pasa en días 31, entonces el día es falso, contando el cero
